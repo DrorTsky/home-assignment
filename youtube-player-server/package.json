@@ -1,0 +1,22 @@
+{
+  "name": "video-playlist-crud",
+  "version": "0.0.1",
+  "description": "restify crud",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Dror Tartakovsky <dror.tartakovsky@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-cache": "^5.1.2",
+    "node-fetch": "^3.1.0",
+    "restify": "^6.3.4",
+    "restify-cors-middleware": "^1.0.1",
+    "restify-errors": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
