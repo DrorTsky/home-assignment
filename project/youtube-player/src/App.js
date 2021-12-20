@@ -90,6 +90,10 @@ export default class App extends Component {
           currentUrl: this.state.youtubeUrls[0],
         }));
       }
+
+      setInterval(async () => {
+        await this.getUrls();
+      }, 30000);
     } catch (error) {
       console.log("no urls");
     }
